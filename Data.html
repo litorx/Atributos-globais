@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <var document: Document>
+</head>
+<body>
+    <ul>
+        <li data-id="1" data-email="vi.snascimento07@gmail.com">Vitor</li>
+        <li data-id="2" data-email="vi.snascimento07@gmail.com teste 2">Vitor 2</li>
+    </ul>
+    
+    <script>
+
+            document.querySelectorAll("li").forEach(liEl => {
+                console.log(liEl.dataset);
+            })
+
+    </script>
+</body>
+<!--Data para salvar no console o elemento por id ou categoria(Li,h1,h2,h3,h4,h5...)-->
+
+</html>
